@@ -121,6 +121,9 @@ namespace System
         public static string ParallelState_Stop_InvalidOperationException_StopAfterBreak;
         public static string ParallelState_Break_InvalidOperationException_BreakAfterStop;
         public static string Parallel_ForEach_NullEnumerator;
+        public static string ParallelPartitionable_IncorretElementCount;
+        public static string ParallelPartitionable_NullElement;
+        public static string ParallelPartitionable_NullReturn;
 
         internal static string GetResourceString(string resourceString)
         {
